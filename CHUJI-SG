@@ -89,13 +89,3 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
-  -
-    PanelType: "V2board"
-    ApiConfig:
-      ApiHost: "https://999.tompoint.online"
-      ApiKey: "akkdciwrtpvf65sac5c6"
-      NodeID: 6
-      NodeType: Shadowsocks
-    ControllerConfig:
-      CertConfig:
-        CertMode: none
