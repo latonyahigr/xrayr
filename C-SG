@@ -1,0 +1,91 @@
+Log:
+  Level: warning # 
+  AccessPath: # /etc/XrayR/access.Log
+  ErrorPath: # /etc/XrayR/error.log
+DnsConfigPath: # /etc/XrayR/dns.json # 
+RouteConfigPath:  /etc/XrayR/route.json # 
+InboundConfigPath: # /etc/XrayR/custom_inbound.json # 
+OutboundConfigPath:  /etc/XrayR/custom_outbound.json # 
+ConnectionConfig:
+  Handshake: 4 # 
+  ConnIdle: 30 # 
+  UplinkOnly: 2 # 
+  DownlinkOnly: 4 # 
+  BufferSize: 64 # 
+Nodes:
+  - #XQGY
+    PanelType: "NewV2board"
+    ApiConfig:
+      ApiHost: "https://888.tompoint.online"
+      ApiKey: "ajdfakwfhlawjda1"
+      NodeID: 13
+      NodeType: Vmess
+    ControllerConfig:
+      CertConfig:
+        CertMode: dns # 
+        CertDomain: "mgsg2.zhousi.link" # 
+        Provider: alidns # 
+        Email: test@me.com
+        DNSEnv: #
+         CLOUDFLARE_EMAIL: chouwilbur@gmail.com
+         CLOUDFLARE_API_KEY: 1ff3fb2cffb129f63d3937494022b15ea3700
+  -
+    PanelType: "V2board"
+    ApiConfig:
+      ApiHost: "https://tx.xingyun3.com"
+      ApiKey: "asdfwer21sdfa13sadf0asd"
+      NodeID: 1
+      NodeType: V2ray
+    ControllerConfig:
+      CertConfig:
+        CertMode: none
+  -
+    PanelType: "V2board"
+    ApiConfig:
+      ApiHost: "https://mqtx.tompoint.online"
+      ApiKey: "IICIjANBgkqhkiG9w0BAQEFAAOCA"
+      NodeID: 1
+      NodeType: V2ray
+    ControllerConfig:
+      CertConfig:
+        CertMode: none
+  -
+    PanelType: "V2board"
+    ApiConfig:
+      ApiHost: "https://fftx.afeifeicloud.top"
+      ApiKey: "VUu3PUwXdDnZgMe5cDT3"
+      NodeID: 1
+      NodeType: V2ray
+    ControllerConfig:
+      CertConfig:
+        CertMode: none
+  -
+    PanelType: "V2board"
+    ApiConfig:
+      ApiHost: "https://tx.qiyunzero.xyz"
+      ApiKey: "4f42e9b78554d3d5a2NTR88YTSh"
+      NodeID: 1
+      NodeType: V2ray
+    ControllerConfig:
+      CertConfig:
+        CertMode: none
+  -
+    PanelType: "V2board"
+    ApiConfig:
+      ApiHost: "https://tx.dengta.store"
+      ApiKey: "c9372a7e0a44f8b6790137c645ce"
+      NodeID: 1
+      NodeType: V2ray
+    ControllerConfig:
+      CertConfig:
+        CertMode: none
+  -
+    PanelType: "V2board"
+    ApiConfig:
+      ApiHost: "https://tx.zhousi.link"
+      ApiKey: "8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u"
+      NodeID: 1
+      NodeType: V2ray
+    ControllerConfig:
+      CertConfig:
+        CertMode: none
