@@ -83,3 +83,23 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
+  -
+    PanelType: "V2board"
+    ApiConfig:
+      ApiHost: "https://tmtx.358745780.xyz"
+      ApiKey: "sjjwiidkkkwsssw55d222awss"
+      NodeID: 21
+      NodeType: V2ray
+    ControllerConfig:
+      CertConfig:
+        CertMode: none
+  -
+    PanelType: "V2board"
+    ApiConfig:
+      ApiHost: "https://smtx.48952123.xyz"
+      ApiKey: "wierioqwjshalwouqaksjdkwo"
+      NodeID: 36
+      NodeType: V2ray
+    ControllerConfig:
+      CertConfig:
+        CertMode: none
