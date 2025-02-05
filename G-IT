@@ -79,7 +79,7 @@ Nodes:
       ApiHost: "https://999.tompoint.online"
       ApiKey: "akkdciwrtpvf65sac5c6"
       NodeID: 37
-      NodeType: V2ray
+      NodeType: Shadowsocks
     ControllerConfig:
       CertConfig:
         CertMode: none
