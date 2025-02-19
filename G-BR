@@ -16,7 +16,7 @@ Nodes:
   -
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://tx.xingyun3.com"
+      ApiHost: "https://xytx.85652312.xyz"
       ApiKey: "asdfwer21sdfa13sadf0asd"
       NodeID: 27
       NodeType: V2ray
