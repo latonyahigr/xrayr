@@ -13,7 +13,7 @@ ConnectionConfig:
   DownlinkOnly: 4 # Time limit when the connection is closed after the uplink is closed, Second
   BufferSize: 64 # The internal cache size of each connection, kB
 Nodes:
-  -
+  - #XY
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://xytx.85652312.xyz"
@@ -23,7 +23,7 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
-  -
+  - #MQ
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://mqtx.tompoint.online"
@@ -33,7 +33,7 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
-  -
+  - #FF
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://fftx.afeifeicloud.top"
@@ -43,7 +43,7 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
-  -
+  - #QY
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://tx.qiyunzero.xyz"
@@ -53,20 +53,20 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
-  -
+  - #DT
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://tx.dengta.store"
+      ApiHost: "https://dttx.938410.xyz"
       ApiKey: "c9372a7e0a44f8b6790137c645ce"
       NodeID: 4
       NodeType: V2ray
     ControllerConfig:
       CertConfig:
         CertMode: none
-  -
+  - #LZ
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://tx.zhousi.link"
+      ApiHost: "https://lztx.848971.xyz"
       ApiKey: "8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u"
       NodeID: 25
       NodeType: V2ray
