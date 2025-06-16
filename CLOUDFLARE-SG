@@ -240,7 +240,7 @@ Nodes:
   - 
     PanelType: "NewV2board" 
     ApiConfig: 
-      ApiHost: "https://smtx.48952123.xyz" 
+      ApiHost: "https://lbtx.48952123.xyz" 
       ApiKey: "wierioqwjshalwouqaksjdkwo" 
       NodeID: 1
       NodeType: Vmess 
@@ -256,7 +256,7 @@ Nodes:
   - 
     PanelType: "NewV2board" 
     ApiConfig: 
-      ApiHost: "https://smtx.48952123.xyz" 
+      ApiHost: "https://lbtx.48952123.xyz" 
       ApiKey: "wierioqwjshalwouqaksjdkwo" 
       NodeID: 2
       NodeType: Vmess 
@@ -272,7 +272,7 @@ Nodes:
   - 
     PanelType: "NewV2board" 
     ApiConfig: 
-      ApiHost: "https://smtx.48952123.xyz" 
+      ApiHost: "https://lbtx.48952123.xyz" 
       ApiKey: "wierioqwjshalwouqaksjdkwo" 
       NodeID: 3
       NodeType: Vmess 
@@ -288,7 +288,7 @@ Nodes:
   - 
     PanelType: "NewV2board" 
     ApiConfig: 
-      ApiHost: "https://smtx.48952123.xyz" 
+      ApiHost: "https://lbtx.48952123.xyz" 
       ApiKey: "wierioqwjshalwouqaksjdkwo" 
       NodeID: 4
       NodeType: Vmess 

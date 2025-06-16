@@ -5,10 +5,6 @@ base_dir = r"E:\github\xrayr"
 
 # 替换内容：原字符串 → 新字符串
 replacements = {
-    'ApiHost: "https://lztx.848971.xyz"': 'ApiHost: "https://lztx.848971.xyz"',
-    'ApiHost: "https://dttx.938410.xyz"': 'ApiHost: "https://dttx.938410.xyz"',
-    'ApiHost: "https://qytx.215874.xyz"': 'ApiHost: "https://qytx.215874.xyz"',
-    'ApiHost: "https://fftx.385158.xyz"': 'ApiHost: "https://fftx.385158.xyz"',
     'ApiHost: "https://sytx.3651250.xyz"': 'ApiHost: "https://sytx.3651250.xyz"',
 }
 

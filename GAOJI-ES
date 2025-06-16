@@ -92,7 +92,7 @@ Nodes:
   -
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://888.tompoint.online"
+      ApiHost: "https://sytx.3651250.xyz"
       ApiKey: "ajdfakwfhlawjda1"
       NodeID: 8
       NodeType: Shadowsocks
@@ -122,7 +122,7 @@ Nodes:
   -
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://smtx.48952123.xyz"
+      ApiHost: "https://lbtx.48952123.xyz"
       ApiKey: "wierioqwjshalwouqaksjdkwo"
       NodeID: 47
       NodeType: V2ray

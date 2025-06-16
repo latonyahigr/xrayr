@@ -96,7 +96,7 @@ Nodes:
   -
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://smtx.48952123.xyz"
+      ApiHost: "https://lbtx.48952123.xyz"
       ApiKey: "wierioqwjshalwouqaksjdkwo"
       NodeID: 36
       NodeType: V2ray

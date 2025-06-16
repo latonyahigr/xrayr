@@ -16,7 +16,7 @@ Nodes:
   - #XQGY
     PanelType: "NewV2board"
     ApiConfig:
-      ApiHost: "https://888.tompoint.online"
+      ApiHost: "https://sytx.3651250.xyz"
       ApiKey: "ajdfakwfhlawjda1"
       NodeID: 14
       NodeType: Vmess
