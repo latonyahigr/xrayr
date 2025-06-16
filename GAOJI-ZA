@@ -13,7 +13,7 @@ ConnectionConfig:
   DownlinkOnly: 4 # Time limit when the connection is closed after the uplink is closed, Second
   BufferSize: 64 # The internal cache size of each connection, kB
 Nodes:
-  -
+  - #XY
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://xytx.85652312.xyz"

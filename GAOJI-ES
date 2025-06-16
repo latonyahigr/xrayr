@@ -29,7 +29,7 @@ Nodes:
         DNSEnv: # DNS ENV option used by DNS provider
          CLOUDFLARE_EMAIL: h89600912@gmail.com        ##CF登录邮箱
          CLOUDFLARE_API_KEY: e94a8d236370e727afc8d806fcce6e0554606    ##CF全局api
-  - 
+  - #XY
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://xytx.85652312.xyz"

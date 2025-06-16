@@ -53,7 +53,7 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
-  -
+  - #XY
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://xytx.85652312.xyz"
