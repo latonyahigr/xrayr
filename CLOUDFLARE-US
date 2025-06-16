@@ -16,7 +16,7 @@ Nodes:
   - #ZS
     PanelType: "NewV2board"
     ApiConfig:
-      ApiHost: "https://tx.zhousi.link"
+      ApiHost: "https://lztx.848971.xyz"
       ApiKey: "8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u"
       NodeID: 52
       NodeType: Vmess
@@ -32,7 +32,7 @@ Nodes:
   - #DT
     PanelType: "NewV2board"
     ApiConfig:
-      ApiHost: "https://tx.dengta.store"
+      ApiHost: "https://dttx.938410.xyz"
       ApiKey: "c9372a7e0a44f8b6790137c645ce"
       NodeID: 54
       NodeType: Vmess
@@ -48,7 +48,7 @@ Nodes:
   - #FF
     PanelType: "NewV2board"
     ApiConfig:
-      ApiHost: "https://fftx.afeifeicloud.top"
+      ApiHost: "https://fftx.385158.xyz"
       ApiKey: "VUu3PUwXdDnZgMe5cDT3"
       NodeID: 54
       NodeType: Vmess
@@ -64,7 +64,7 @@ Nodes:
   - #MQ
     PanelType: "NewV2board"
     ApiConfig:
-      ApiHost: "https://mqtx.tompoint.online"
+      ApiHost: "https://mqtx.992178.xyz"
       ApiKey: "IICIjANBgkqhkiG9w0BAQEFAAOCA"
       NodeID: 68
       NodeType: Vmess
@@ -80,7 +80,7 @@ Nodes:
   - #QY
     PanelType: "NewV2board"
     ApiConfig:
-      ApiHost: "https://tx.qiyunzero.xyz"
+      ApiHost: "https://qytx.215874.xyz"
       ApiKey: "4f42e9b78554d3d5a2NTR88YTSh"
       NodeID: 57
       NodeType: Vmess
@@ -96,7 +96,7 @@ Nodes:
   - 
     PanelType: "NewV2board" 
     ApiConfig: 
-      ApiHost: "https://999.tompoint.online" 
+      ApiHost: "https://sytx.3651250.xyz" 
       ApiKey: "akkdciwrtpvf65sac5c6" 
       NodeID: 22
       NodeType: Vmess 
@@ -112,7 +112,7 @@ Nodes:
   - 
     PanelType: "NewV2board" 
     ApiConfig: 
-      ApiHost: "https://999.tompoint.online" 
+      ApiHost: "https://sytx.3651250.xyz" 
       ApiKey: "akkdciwrtpvf65sac5c6" 
       NodeID: 23
       NodeType: Vmess 
@@ -128,7 +128,7 @@ Nodes:
   - 
     PanelType: "NewV2board" 
     ApiConfig: 
-      ApiHost: "https://999.tompoint.online" 
+      ApiHost: "https://sytx.3651250.xyz" 
       ApiKey: "akkdciwrtpvf65sac5c6" 
       NodeID: 26
       NodeType: Vmess 
@@ -144,7 +144,7 @@ Nodes:
   - 
     PanelType: "NewV2board" 
     ApiConfig: 
-      ApiHost: "https://999.tompoint.online" 
+      ApiHost: "https://sytx.3651250.xyz" 
       ApiKey: "akkdciwrtpvf65sac5c6" 
       NodeID: 27
       NodeType: Vmess 

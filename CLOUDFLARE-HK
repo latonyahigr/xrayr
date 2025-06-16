@@ -16,7 +16,7 @@ Nodes:
   - 
     PanelType: "NewV2board" 
     ApiConfig: 
-      ApiHost: "https://999.tompoint.online" 
+      ApiHost: "https://sytx.3651250.xyz" 
       ApiKey: "akkdciwrtpvf65sac5c6" 
       NodeID: 24
       NodeType: Vmess 
@@ -32,7 +32,7 @@ Nodes:
   - 
     PanelType: "NewV2board" 
     ApiConfig: 
-      ApiHost: "https://999.tompoint.online" 
+      ApiHost: "https://sytx.3651250.xyz" 
       ApiKey: "akkdciwrtpvf65sac5c6" 
       NodeID: 25
       NodeType: Vmess 
@@ -48,7 +48,7 @@ Nodes:
   - 
     PanelType: "NewV2board" 
     ApiConfig: 
-      ApiHost: "https://999.tompoint.online" 
+      ApiHost: "https://sytx.3651250.xyz" 
       ApiKey: "akkdciwrtpvf65sac5c6" 
       NodeID: 14
       NodeType: Vmess 
@@ -64,7 +64,7 @@ Nodes:
   - 
     PanelType: "NewV2board" 
     ApiConfig: 
-      ApiHost: "https://999.tompoint.online" 
+      ApiHost: "https://sytx.3651250.xyz" 
       ApiKey: "akkdciwrtpvf65sac5c6" 
       NodeID: 13
       NodeType: Vmess 

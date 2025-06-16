@@ -26,7 +26,7 @@ Nodes:
   - #MQ
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://mqtx.tompoint.online"
+      ApiHost: "https://mqtx.992178.xyz"
       ApiKey: "IICIjANBgkqhkiG9w0BAQEFAAOCA"
       NodeID: 19
       NodeType: V2ray
@@ -36,7 +36,7 @@ Nodes:
   - #FF
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://fftx.afeifeicloud.top"
+      ApiHost: "https://fftx.385158.xyz"
       ApiKey: "VUu3PUwXdDnZgMe5cDT3"
       NodeID: 13
       NodeType: V2ray
@@ -46,7 +46,7 @@ Nodes:
   - #QY
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://tx.qiyunzero.xyz"
+      ApiHost: "https://qytx.215874.xyz"
       ApiKey: "4f42e9b78554d3d5a2NTR88YTSh"
       NodeID: 16
       NodeType: V2ray
