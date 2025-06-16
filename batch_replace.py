@@ -8,7 +8,14 @@ base_dir = r"E:\github\xrayr"
 # 格式：唯一标识的字符串 → 注释（#XY、#AB等）
 block_tags = {
     'ApiHost: "https://xytx.85652312.xyz"': "#XY",
-    # 继续添加更多...
+    'ApiHost: "https://sytx.3651250.xyz"': "#SY",
+    'ApiHost: "https://mqtx.992178.xyz"': "#MQ",
+    'ApiHost: "https://lztx.848971.xyz"': "#LZ",
+    'ApiHost: "https://dttx.938410.xyz"': "#DT",
+    'ApiHost: "https://tmtx.358745780.xyz"': "#TM",
+    'ApiHost: "https://lbtx.48952123.xyz"': "#LB",
+    'ApiHost: "https://fftx.385158.xyz"': "#FF",
+    'ApiHost: "https://qytx.215874.xyz"': "#QY",
 }
 
 # 排除 .git 目录

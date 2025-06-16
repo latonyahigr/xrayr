@@ -13,7 +13,7 @@ ConnectionConfig:
   DownlinkOnly: 4 # 
   BufferSize: 64 # 
 Nodes:
-  - #
+  - #LZ
     PanelType: "NewV2board"
     ApiConfig:
       ApiHost: "https://lztx.848971.xyz"
@@ -29,7 +29,7 @@ Nodes:
         DNSEnv: #
          CLOUDFLARE_EMAIL: chouwilbur@gmail.com
          CLOUDFLARE_API_KEY: 1ff3fb2cffb129f63d3937494022b15ea3700
-  - #
+  - #DT
     PanelType: "NewV2board"
     ApiConfig:
       ApiHost: "https://dttx.938410.xyz"
@@ -45,7 +45,7 @@ Nodes:
         DNSEnv: #
          CLOUDFLARE_EMAIL: chouwilbur@gmail.com
          CLOUDFLARE_API_KEY: 1ff3fb2cffb129f63d3937494022b15ea3700
-  - #
+  - #FF
     PanelType: "NewV2board"
     ApiConfig:
       ApiHost: "https://fftx.385158.xyz"
@@ -61,7 +61,7 @@ Nodes:
         DNSEnv: #
          CLOUDFLARE_EMAIL: zhoujiang99999@gmail.com
          CLOUDFLARE_API_KEY: b920102e1bb9d6c42f23c508c5174f96cb86b
-  - #
+  - #MQ
     PanelType: "NewV2board"
     ApiConfig:
       ApiHost: "https://mqtx.992178.xyz"
@@ -77,7 +77,7 @@ Nodes:
         DNSEnv: #
          CLOUDFLARE_EMAIL: zhoujiang99999@gmail.com
          CLOUDFLARE_API_KEY: b920102e1bb9d6c42f23c508c5174f96cb86b
-  - #
+  - #QY
     PanelType: "NewV2board"
     ApiConfig:
       ApiHost: "https://qytx.215874.xyz"
@@ -93,7 +93,7 @@ Nodes:
         DNSEnv: #
          CLOUDFLARE_EMAIL: zhoujiang99999@gmail.com
          CLOUDFLARE_API_KEY: b920102e1bb9d6c42f23c508c5174f96cb86b
-  - 
+  - #SY
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://sytx.3651250.xyz" 
@@ -109,7 +109,7 @@ Nodes:
         DNSEnv: # 
          CLOUDFLARE_EMAIL: h89600912@gmail.com        
          CLOUDFLARE_API_KEY: e94a8d236370e727afc8d806fcce6e0554606
-  - 
+  - #SY
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://sytx.3651250.xyz" 
@@ -125,7 +125,7 @@ Nodes:
         DNSEnv: # 
          CLOUDFLARE_EMAIL: h89600912@gmail.com        
          CLOUDFLARE_API_KEY: e94a8d236370e727afc8d806fcce6e0554606
-  - 
+  - #SY
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://sytx.3651250.xyz" 
@@ -141,7 +141,7 @@ Nodes:
         DNSEnv: # 
          CLOUDFLARE_EMAIL: h89600912@gmail.com        
          CLOUDFLARE_API_KEY: e94a8d236370e727afc8d806fcce6e0554606
-  - 
+  - #SY
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://sytx.3651250.xyz" 
@@ -157,7 +157,7 @@ Nodes:
         DNSEnv: # 
          CLOUDFLARE_EMAIL: h89600912@gmail.com        
          CLOUDFLARE_API_KEY: e94a8d236370e727afc8d806fcce6e0554606
-  - 
+  - #TM
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://tmtx.358745780.xyz" 
@@ -173,7 +173,7 @@ Nodes:
         DNSEnv: # 
          CLOUDFLARE_EMAIL: nastyshadmitr1@gmail.com        
          CLOUDFLARE_API_KEY: 1ecc5746bb68db003a01e16b0fd80275d769c
-  - 
+  - #TM
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://tmtx.358745780.xyz" 
@@ -189,7 +189,7 @@ Nodes:
         DNSEnv: # 
          CLOUDFLARE_EMAIL: nastyshadmitr1@gmail.com        
          CLOUDFLARE_API_KEY: 1ecc5746bb68db003a01e16b0fd80275d769c
-  - 
+  - #TM
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://tmtx.358745780.xyz" 
@@ -205,7 +205,7 @@ Nodes:
         DNSEnv: # 
          CLOUDFLARE_EMAIL: nastyshadmitr1@gmail.com        
          CLOUDFLARE_API_KEY: 1ecc5746bb68db003a01e16b0fd80275d769c
-  - 
+  - #TM
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://tmtx.358745780.xyz" 
@@ -221,7 +221,7 @@ Nodes:
         DNSEnv: # 
          CLOUDFLARE_EMAIL: nastyshadmitr1@gmail.com        
          CLOUDFLARE_API_KEY: 1ecc5746bb68db003a01e16b0fd80275d769c
-  - 
+  - #TM
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://tmtx.358745780.xyz" 
@@ -237,7 +237,7 @@ Nodes:
         DNSEnv: # 
          CLOUDFLARE_EMAIL: nastyshadmitr1@gmail.com        
          CLOUDFLARE_API_KEY: 1ecc5746bb68db003a01e16b0fd80275d769c
-  - 
+  - #LB
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://lbtx.48952123.xyz" 
@@ -253,7 +253,7 @@ Nodes:
         DNSEnv: # 
          CLOUDFLARE_EMAIL: zhoujiang99999@gmail.com        
          CLOUDFLARE_API_KEY: b920102e1bb9d6c42f23c508c5174f96cb86b
-  - 
+  - #LB
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://lbtx.48952123.xyz" 
@@ -269,7 +269,7 @@ Nodes:
         DNSEnv: # 
          CLOUDFLARE_EMAIL: zhoujiang99999@gmail.com        
          CLOUDFLARE_API_KEY: b920102e1bb9d6c42f23c508c5174f96cb86b
-  - 
+  - #LB
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://lbtx.48952123.xyz" 
@@ -285,7 +285,7 @@ Nodes:
         DNSEnv: # 
          CLOUDFLARE_EMAIL: zhoujiang99999@gmail.com        
          CLOUDFLARE_API_KEY: b920102e1bb9d6c42f23c508c5174f96cb86b
-  - 
+  - #LB
     PanelType: "NewV2board" 
     ApiConfig: 
       ApiHost: "https://lbtx.48952123.xyz" 

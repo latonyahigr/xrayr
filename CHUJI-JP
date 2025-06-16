@@ -23,7 +23,7 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
-  -
+  - #MQ
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://mqtx.992178.xyz"
@@ -33,7 +33,7 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
-  -
+  - #FF
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://fftx.385158.xyz"
@@ -43,7 +43,7 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
-  -
+  - #QY
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://qytx.215874.xyz"
@@ -53,7 +53,7 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
-  -
+  - #DT
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://dttx.938410.xyz"
@@ -63,7 +63,7 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
-  -
+  - #LZ
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://lztx.848971.xyz"
