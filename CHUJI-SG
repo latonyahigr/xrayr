@@ -13,22 +13,6 @@ ConnectionConfig:
   DownlinkOnly: 4 # 
   BufferSize: 64 # 
 Nodes:
-  - #SY
-    PanelType: "NewV2board"
-    ApiConfig:
-      ApiHost: "https://sytx.3651250.xyz"
-      ApiKey: "ajdfakwfhlawjda1"
-      NodeID: 13
-      NodeType: Vmess
-    ControllerConfig:
-      CertConfig:
-        CertMode: dns # 
-        CertDomain: "mgsg2.zhousi.link" # 
-        Provider: alidns # 
-        Email: test@me.com
-        DNSEnv: #
-         CLOUDFLARE_EMAIL: chouwilbur@gmail.com
-         CLOUDFLARE_API_KEY: 1ff3fb2cffb129f63d3937494022b15ea3700
   - #XY
     PanelType: "V2board"
     ApiConfig:
