@@ -73,26 +73,6 @@ Nodes:
     ControllerConfig:
       CertConfig:
         CertMode: none
-  - #SY
-    PanelType: "V2board"
-    ApiConfig:
-      ApiHost: "https://sytx.3651250.xyz"
-      ApiKey: "akkdciwrtpvf65sac5c6"
-      NodeID: 30
-      NodeType: Shadowsocks
-    ControllerConfig:
-      CertConfig:
-        CertMode: none
-  - #TM
-    PanelType: "V2board"
-    ApiConfig:
-      ApiHost: "https://tmtx.358745780.xyz"
-      ApiKey: "sjjwiidkkkwsssw55d222awss"
-      NodeID: 27
-      NodeType: V2ray
-    ControllerConfig:
-      CertConfig:
-        CertMode: none
   - #LB
     PanelType: "V2board"
     ApiConfig:
