@@ -1,0 +1,233 @@
+日志开始时间: 2025-07-19 20:33:42
+ℹ️ 读取文件: E:\github\xrayr\batch_replace.py (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\batch_replace.py):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\batch_replace.py
+ℹ️ 读取文件: E:\github\xrayr\CHUJI-HK (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\CHUJI-HK):
+  包含 ApiHost (SY): False
+  包含 ApiHost (TM): False
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\CHUJI-HK
+ℹ️ 读取文件: E:\github\xrayr\CHUJI-JP (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\CHUJI-JP):
+  包含 ApiHost (SY): False
+  包含 ApiHost (TM): False
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\CHUJI-JP
+ℹ️ 读取文件: E:\github\xrayr\CHUJI-SG (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\CHUJI-SG):
+  包含 ApiHost (SY): False
+  包含 ApiHost (TM): False
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\CHUJI-SG
+ℹ️ 读取文件: E:\github\xrayr\CHUJI-USA (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\CHUJI-USA):
+  包含 ApiHost (SY): False
+  包含 ApiHost (TM): False
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\CHUJI-USA
+ℹ️ 读取文件: E:\github\xrayr\CLOUDFLARE-HK (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\CLOUDFLARE-HK):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: False
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\CLOUDFLARE-HK
+ℹ️ 读取文件: E:\github\xrayr\CLOUDFLARE-JP (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\CLOUDFLARE-JP):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: False
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\CLOUDFLARE-JP
+ℹ️ 读取文件: E:\github\xrayr\CLOUDFLARE-SG (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\CLOUDFLARE-SG):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: False
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\CLOUDFLARE-SG
+ℹ️ 读取文件: E:\github\xrayr\CLOUDFLARE-US (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\CLOUDFLARE-US):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: False
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\CLOUDFLARE-US
+ℹ️ 读取文件: E:\github\xrayr\delete_nodes_log.txt (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\delete_nodes_log.txt):
+  包含 ApiHost (SY): False
+  包含 ApiHost (TM): False
+  包含 PanelType: False
+  包含 Nodes: False
+ℹ️ 无匹配内容: E:\github\xrayr\delete_nodes_log.txt
+ℹ️ 读取文件: E:\github\xrayr\DIRECT-JP (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\DIRECT-JP):
+  包含 ApiHost (SY): False
+  包含 ApiHost (TM): False
+  包含 PanelType: False
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\DIRECT-JP
+ℹ️ 读取文件: E:\github\xrayr\DIRECT-SG (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\DIRECT-SG):
+  包含 ApiHost (SY): False
+  包含 ApiHost (TM): False
+  包含 PanelType: False
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\DIRECT-SG
+ℹ️ 读取文件: E:\github\xrayr\DIRECT-USA (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\DIRECT-USA):
+  包含 ApiHost (SY): False
+  包含 ApiHost (TM): False
+  包含 PanelType: False
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\DIRECT-USA
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-AU (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-AU):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-AU
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-BR (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-BR):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-BR
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-CA (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-CA):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-CA
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-DE (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-DE):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-DE
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-ES (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-ES):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-ES
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-FR (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-FR):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-FR
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-GB (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-GB):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-GB
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-HK (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-HK):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-HK
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-IN (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-IN):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-IN
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-IT (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-IT):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-IT
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-JP (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-JP):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-JP
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-KR (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-KR):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-KR
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-NL (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-NL):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-NL
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-RU (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-RU):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-RU
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-SE (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-SE):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-SE
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-SG (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-SG):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-SG
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-SP (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-SP):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-SP
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-TW (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-TW):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-TW
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-USA (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-USA):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-USA
+ℹ️ 读取文件: E:\github\xrayr\GAOJI-ZA (编码: utf-8-sig)
+📄 文件检查 (E:\github\xrayr\GAOJI-ZA):
+  包含 ApiHost (SY): True
+  包含 ApiHost (TM): True
+  包含 PanelType: True
+  包含 Nodes: True
+ℹ️ 无匹配内容: E:\github\xrayr\GAOJI-ZA
+🎉 操作完成！共扫描 33 个文件，修改 0 个文件。请在 GitHub Desktop 中检查更改。
