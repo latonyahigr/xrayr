@@ -78,7 +78,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://lbtx.48952123.xyz"
       ApiKey: "wierioqwjshalwouqaksjdkwo"
-      NodeID: 41
+      NodeID: 9
       NodeType: V2ray
     ControllerConfig:
       CertConfig:
