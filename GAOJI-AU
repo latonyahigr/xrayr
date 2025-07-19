@@ -72,9 +72,7 @@ Nodes:
       NodeType: V2ray
     ControllerConfig:
       CertConfig:
-        CertMode: none
-  
-  
+        CertMode: none  
   - #LB
     PanelType: "V2board"
     ApiConfig:
