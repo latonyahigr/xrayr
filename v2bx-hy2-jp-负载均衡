@@ -1,1 +1,189 @@
-
+{
+    "Log": {
+        "Level": "error",
+        "Output": ""
+    },
+    "Cores": [
+    {
+        "Type": "sing",
+        "Log": {
+            "Level": "error",
+            "Timestamp": true
+        },
+        "NTP": {
+            "Enable": false,
+            "Server": "time.apple.com",
+            "ServerPort": 0
+        },
+        "OriginalPath": "/etc/V2bX/sing_origin.json"
+    },
+    {
+        "Type": "hysteria2",
+        "Log": {
+            "Level": "error"
+        }
+    }],
+    "Nodes": [{
+            "Core": "hysteria2",
+            "ApiHost": "https://xqtx.okjnd.com",
+            "ApiKey": "ajdfakwfhlawjda1",
+            "NodeID": 12,
+            "NodeType": "hysteria2",
+            "Hysteria2ConfigPath": "/etc/V2bX/hy2config.yaml",
+            "Timeout": 30,
+            "ListenIP": "",
+            "SendIP": "0.0.0.0",
+            "DeviceOnlineMinTraffic": 200,
+            "CertConfig": {
+                "CertMode": "http",
+                "RejectUnknownSni": false,
+                "CertDomain": "ali-jp-xq.xiao666666.site",
+                "CertFile": "/etc/V2bX/fullchain.cer",
+                "KeyFile": "/etc/V2bX/cert.key",
+                "Email": "v2bx@github.com",
+                "Provider": "cloudflare",
+                "DNSEnv": {
+                    "EnvName": "env1"
+                }
+            }
+        }, {
+            "Core": "sing",
+            "ApiHost": "https://xqtx.okjnd.com",
+            "ApiKey": "ajdfakwfhlawjda1",
+            "NodeID": 12,
+            "NodeType": "anytls",
+            "Timeout": 30,
+            "ListenIP": "::",
+            "SendIP": "0.0.0.0",
+            "DeviceOnlineMinTraffic": 200,
+            "TCPFastOpen": false,
+            "SniffEnabled": true,
+            "CertConfig": {
+                "CertMode": "http",
+                "RejectUnknownSni": false,
+                "CertDomain": "ali-jp-xq.xiao666666.site",
+                "CertFile": "/etc/V2bX/fullchain.cer",
+                "KeyFile": "/etc/V2bX/cert.key",
+                "Email": "v2bx@github.com",
+                "Provider": "cloudflare",
+                "DNSEnv": {
+                    "CF_DNS_API_TOKEN": "NovqkQBKi8QsRhtGPO7GeW3_16BNsUYHEHndfI6y"
+                }
+            }
+        }, {
+            "Core": "hysteria2",
+            "ApiHost": "https://dttx.938410.xyz",
+            "ApiKey": "c9372a7e0a44f8b6790137c645ce",
+            "NodeID": 2,
+            "NodeType": "hysteria2",
+            "Hysteria2ConfigPath": "/etc/V2bX/hy2config.yaml",
+            "Timeout": 30,
+            "ListenIP": "",
+            "SendIP": "0.0.0.0",
+            "DeviceOnlineMinTraffic": 200,
+            "CertConfig": {
+                "CertMode": "http",
+                "RejectUnknownSni": false,
+                "CertDomain": "dtjppshy2.134161.xyz",
+                "CertFile": "/etc/V2bX/fullchain.cer",
+                "KeyFile": "/etc/V2bX/cert.key",
+                "Email": "v2bx@github.com",
+                "Provider": "cloudflare",
+                "DNSEnv": {
+                    "EnvName": "env1"
+                }
+            }
+        }, {
+            "Core": "hysteria2",
+            "ApiHost": "https://lztx.848971.xyz",
+            "ApiKey": "8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u",
+            "NodeID": 2,
+            "NodeType": "hysteria2",
+            "Hysteria2ConfigPath": "/etc/V2bX/hy2config.yaml",
+            "Timeout": 30,
+            "ListenIP": "",
+            "SendIP": "0.0.0.0",
+            "DeviceOnlineMinTraffic": 200,
+            "CertConfig": {
+                "CertMode": "http",
+                "RejectUnknownSni": false,
+                "CertDomain": "lzjpps2hy2-2c.134161.xyz",
+                "CertFile": "/etc/V2bX/fullchain.cer",
+                "KeyFile": "/etc/V2bX/cert.key",
+                "Email": "v2bx@github.com",
+                "Provider": "cloudflare",
+                "DNSEnv": {
+                    "EnvName": "env1"
+                }
+            }
+        }, {
+            "Core": "hysteria2",
+            "ApiHost": "https://mqtx.992178.xyz",
+            "ApiKey": "IICIjANBgkqhkiG9w0BAQEFAAOCA",
+            "NodeID": 2,
+            "NodeType": "hysteria2",
+            "Hysteria2ConfigPath": "/etc/V2bX/hy2config.yaml",
+            "Timeout": 30,
+            "ListenIP": "",
+            "SendIP": "0.0.0.0",
+            "DeviceOnlineMinTraffic": 200,
+            "CertConfig": {
+                "CertMode": "http",
+                "RejectUnknownSni": false,
+                "CertDomain": "mqjppshy2-369a.134161.xyz",
+                "CertFile": "/etc/V2bX/fullchain.cer",
+                "KeyFile": "/etc/V2bX/cert.key",
+                "Email": "v2bx@github.com",
+                "Provider": "cloudflare",
+                "DNSEnv": {
+                    "EnvName": "env1"
+                }
+            }
+        }, {
+            "Core": "hysteria2",
+            "ApiHost": "https://qytx.215874.xyz",
+            "ApiKey": "4f42e9b78554d3d5a2NTR88YTSh",
+            "NodeID": 3,
+            "NodeType": "hysteria2",
+            "Hysteria2ConfigPath": "/etc/V2bX/hy2config.yaml",
+            "Timeout": 30,
+            "ListenIP": "",
+            "SendIP": "0.0.0.0",
+            "DeviceOnlineMinTraffic": 200,
+            "CertConfig": {
+                "CertMode": "http",
+                "RejectUnknownSni": false,
+                "CertDomain": "qyjpps9hy2-15ec.134161.xyz",
+                "CertFile": "/etc/V2bX/fullchain.cer",
+                "KeyFile": "/etc/V2bX/cert.key",
+                "Email": "v2bx@github.com",
+                "Provider": "cloudflare",
+                "DNSEnv": {
+                    "EnvName": "env1"
+                }
+            }
+        }, {
+            "Core": "hysteria2",
+            "ApiHost": "https://lbtx.48952123.xyz",
+            "ApiKey": "wierioqwjshalwouqaksjdkwo",
+            "NodeID": 3,
+            "NodeType": "hysteria2",
+            "Hysteria2ConfigPath": "/etc/V2bX/hy2config.yaml",
+            "Timeout": 30,
+            "ListenIP": "",
+            "SendIP": "0.0.0.0",
+            "DeviceOnlineMinTraffic": 200,
+            "CertConfig": {
+                "CertMode": "http",
+                "RejectUnknownSni": false,
+                "CertDomain": "lbo9hy20iu-28uy.48952122.xyz",
+                "CertFile": "/etc/V2bX/fullchain.cer",
+                "KeyFile": "/etc/V2bX/cert.key",
+                "Email": "v2bx@github.com",
+                "Provider": "cloudflare",
+                "DNSEnv": {
+                    "EnvName": "env1"
+                }
+            }
+        },]
+}
