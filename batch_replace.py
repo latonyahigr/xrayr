@@ -1,60 +1,72 @@
 import os
 import re
+from pathlib import Path
 
-# 仓库路径
-base_dir = r"E:\github\xrayr"
+# 配置区 ================================================
+REPO_DIR = r"E:\github\xrayr"  # 你的仓库路径
 
-# 替换目标：每个值是“完整 YAML 段落”的首行，注释会插入在它后面
-# 格式：唯一标识的字符串 → 注释（#XY、#AB等）
-block_tags = {
-    'ApiHost: "https://xytx.85652312.xyz"': "#XY",
-    'ApiHost: "https://sytx.3651250.xyz"': "#SY",
-    'ApiHost: "https://mqtx.992178.xyz"': "#MQ",
-    'ApiHost: "https://lztx.848971.xyz"': "#LZ",
-    'ApiHost: "https://dttx.938410.xyz"': "#DT",
-    'ApiHost: "https://tmtx.358745780.xyz"': "#TM",
-    'ApiHost: "https://lbtx.48952123.xyz"': "#LB",
-    'ApiHost: "https://fftx.385158.xyz"': "#FF",
-    'ApiHost: "https://qytx.215874.xyz"': "#QY",
-}
+# 需要删除的独立配置块（支持变化的NodeID）
+BLOCKS_TO_DELETE = [
+    # TM配置块（NodeID可能变化）
+    r'-\s*#TM\s*\n\s*PanelType:\s*"V2board"\s*\n\s*ApiConfig:\s*\n\s*ApiHost:\s*"https://tmtx\.358745780\.xyz"\s*\n\s*ApiKey:\s*"sjjwiidkkkwsssw55d222awss"\s*\n\s*NodeID:\s*\d+\s*\n\s*NodeType:\s*V2ray\s*\n\s*ControllerConfig:\s*\n\s*CertConfig:\s*\n\s*CertMode:\s*none\s*\n?',
+    
+    # SY配置块（NodeID可能变化）
+    r'-\s*#SY\s*\n\s*PanelType:\s*"V2board"\s*\n\s*ApiConfig:\s*\n\s*ApiHost:\s*"https://sytx\.3651250\.xyz"\s*\n\s*ApiKey:\s*"akkdciwrtpvf65sac5c6"\s*\n\s*NodeID:\s*\d+\s*\n\s*NodeType:\s*Shadowsocks\s*\n\s*ControllerConfig:\s*\n\s*CertConfig:\s*\n\s*CertMode:\s*none\s*\n?'
+]
 
-# 排除 .git 目录
-for root, dirs, files in os.walk(base_dir):
-    if ".git" in root:
-        continue
-
-    for file in files:
-        file_path = os.path.join(root, file)
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                lines = f.readlines()
-        except Exception:
+# 主逻辑 ================================================
+def clean_blocks():
+    changed_files = set()  # 使用集合避免重复记录
+    
+    for root, _, files in os.walk(REPO_DIR):
+        if ".git" in root:
             continue
-
-        modified = False
-        new_lines = []
-        i = 0
-        while i < len(lines):
-            line = lines[i]
-            new_lines.append(line)
-            # 遍历目标项，看是否匹配
-            for keyword, comment in block_tags.items():
-                if keyword in line:
-                    # 回溯找到包含 "-" 且缩进相同的起始行
-                    for j in range(i - 1, max(i - 5, -1), -1):
-                        if re.match(r"\s*-\s*$", lines[j]) or re.match(r"\s*-\s+#", lines[j]):
-                            # 替换那一行，加注释
-                            indent = re.match(r"^(\s*)-", lines[j]).group(1)
-                            lines[j] = f"{indent}- {comment}\n"
-                            modified = True
-                            break
-                    break
-            i += 1
-
-        if modified:
+            
+        for file in files:
+            file_path = Path(root) / file
             try:
-                with open(file_path, "w", encoding="utf-8") as f:
-                    f.writelines(lines)
-                print(f"✅ 加注释完成: {file_path}")
+                # 读取文件（自动处理BOM和编码）
+                content = file_path.read_text(encoding='utf-8-sig')
+                original = content
+                
+                # 删除所有目标块
+                for pattern in BLOCKS_TO_DELETE:
+                    content = re.sub(pattern, '', content, flags=re.MULTILINE)
+                
+                # 清理多余空行（连续2个以上换行变1个）
+                content = re.sub(r'\n{3,}', '\n\n', content)
+                
+                if content != original:
+                    # 备份原文件（可选）
+                    backup_path = file_path.with_suffix(file_path.suffix + '.bak')
+                    file_path.replace(backup_path)
+                    
+                    # 写入新内容
+                    file_path.write_text(content, encoding='utf-8')
+                    changed_files.add(str(file_path))
+                    print(f"✅ 已清理: {file_path}")
+                    
             except Exception as e:
-                print(f"⚠️ 写入失败: {file_path}, 错误: {e}")
+                print(f"❌ 处理失败 [{file_path}]: {str(e)}")
+    
+    return sorted(changed_files)  # 返回排序后的列表
+
+if __name__ == "__main__":
+    print("🔍 开始深度扫描所有文件...")
+    modified_files = clean_blocks()
+    
+    print("\n=== 操作结果 ===")
+    if modified_files:
+        print(f"🎉 共修改了 {len(modified_files)} 个文件:")
+        for f in modified_files:
+            print(f"  → {f}")
+        
+        print("\n💡 后续操作建议:")
+        print(f"cd {REPO_DIR}")
+        print("git add .")
+        print("git commit -m '移除TM和SY配置块'")
+        print("git push")
+    else:
+        print("⚠️ 未找到需要删除的配置块")
+
+    print("\n提示：原文件已自动备份为.bak后缀（如需还原）")
