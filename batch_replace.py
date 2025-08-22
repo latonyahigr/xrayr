@@ -5,13 +5,13 @@ from pathlib import Path
 # 配置区 ================================================
 REPO_DIR = r"E:\github\xrayr"  # 你的仓库路径
 
-# 需要删除的独立配置块（支持变化的NodeID）
+# 需要删除的独立配置块（NodeID可能变化）
 BLOCKS_TO_DELETE = [
-    # TM配置块（NodeID可能变化）
-    r'-\s*#TM\s*\n\s*PanelType:\s*"V2board"\s*\n\s*ApiConfig:\s*\n\s*ApiHost:\s*"https://tmtx\.358745780\.xyz"\s*\n\s*ApiKey:\s*"sjjwiidkkkwsssw55d222awss"\s*\n\s*NodeID:\s*\d+\s*\n\s*NodeType:\s*V2ray\s*\n\s*ControllerConfig:\s*\n\s*CertConfig:\s*\n\s*CertMode:\s*none\s*\n?',
+    # XY节点配置块
+    r'-\s*#XY\s*\n\s*PanelType:\s*"V2board"\s*\n\s*ApiConfig:\s*\n\s*ApiHost:\s*"https://xytx\.85652312\.xyz"\s*\n\s*ApiKey:\s*".*?"\s*\n\s*NodeID:\s*\d+\s*\n\s*NodeType:\s*V2ray\s*\n\s*ControllerConfig:\s*\n\s*CertConfig:\s*\n\s*CertMode:\s*none\s*\n?',
     
-    # SY配置块（NodeID可能变化）
-    r'-\s*#SY\s*\n\s*PanelType:\s*"V2board"\s*\n\s*ApiConfig:\s*\n\s*ApiHost:\s*"https://sytx\.3651250\.xyz"\s*\n\s*ApiKey:\s*"akkdciwrtpvf65sac5c6"\s*\n\s*NodeID:\s*\d+\s*\n\s*NodeType:\s*Shadowsocks\s*\n\s*ControllerConfig:\s*\n\s*CertConfig:\s*\n\s*CertMode:\s*none\s*\n?'
+    # FF节点配置块
+    r'-\s*#FF\s*\n\s*PanelType:\s*"V2board"\s*\n\s*ApiConfig:\s*\n\s*ApiHost:\s*"https://fftx\.385158\.xyz"\s*\n\s*ApiKey:\s*".*?"\s*\n\s*NodeID:\s*\d+\s*\n\s*NodeType:\s*V2ray\s*\n\s*ControllerConfig:\s*\n\s*CertConfig:\s*\n\s*CertMode:\s*none\s*\n?'
 ]
 
 # 主逻辑 ================================================
@@ -64,7 +64,7 @@ if __name__ == "__main__":
         print("\n💡 后续操作建议:")
         print(f"cd {REPO_DIR}")
         print("git add .")
-        print("git commit -m '移除TM和SY配置块'")
+        print("git commit -m '移除XY和FF配置块'")
         print("git push")
     else:
         print("⚠️ 未找到需要删除的配置块")

@@ -13,32 +13,12 @@ ConnectionConfig:
   DownlinkOnly: 4 # 
   BufferSize: 64 # 
 Nodes:
-  - #XY
-    PanelType: "V2board"
-    ApiConfig:
-      ApiHost: "https://xytx.85652312.xyz"
-      ApiKey: "asdfwer21sdfa13sadf0asd"
-      NodeID: 9
-      NodeType: V2ray
-    ControllerConfig:
-      CertConfig:
-        CertMode: none
   - #MQ
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://mqtx.992178.xyz"
       ApiKey: "IICIjANBgkqhkiG9w0BAQEFAAOCA"
       NodeID: 13
-      NodeType: V2ray
-    ControllerConfig:
-      CertConfig:
-        CertMode: none
-  - #FF
-    PanelType: "V2board"
-    ApiConfig:
-      ApiHost: "https://fftx.385158.xyz"
-      ApiKey: "VUu3PUwXdDnZgMe5cDT3"
-      NodeID: 9
       NodeType: V2ray
     ControllerConfig:
       CertConfig:

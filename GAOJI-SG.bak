@@ -13,12 +13,32 @@ ConnectionConfig:
   DownlinkOnly: 4 # Time limit when the connection is closed after the uplink is closed, Second
   BufferSize: 64 # The internal cache size of each connection, kB
 Nodes:
+  - #XY
+    PanelType: "V2board"
+    ApiConfig:
+      ApiHost: "https://xytx.85652312.xyz"
+      ApiKey: "asdfwer21sdfa13sadf0asd"
+      NodeID: 37
+      NodeType: V2ray
+    ControllerConfig:
+      CertConfig:
+        CertMode: none
   - #MQ
     PanelType: "V2board"
     ApiConfig:
       ApiHost: "https://mqtx.992178.xyz"
       ApiKey: "IICIjANBgkqhkiG9w0BAQEFAAOCA"
       NodeID: 25
+      NodeType: V2ray
+    ControllerConfig:
+      CertConfig:
+        CertMode: none
+  - #FF
+    PanelType: "V2board"
+    ApiConfig:
+      ApiHost: "https://fftx.385158.xyz"
+      ApiKey: "VUu3PUwXdDnZgMe5cDT3"
+      NodeID: 17
       NodeType: V2ray
     ControllerConfig:
       CertConfig:
