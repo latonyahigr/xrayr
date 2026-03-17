@@ -1,64 +1,54 @@
 Log:
-  Level: none
+  Level: warning # 
   AccessPath: # /etc/XrayR/access.Log
   ErrorPath: # /etc/XrayR/error.log
-DnsConfigPath: # /etc/XrayR/dns.json # Path to dns config, check https://xtls.github.io/config/dns.html for help
-RouteConfigPath:  /etc/XrayR/route.json # Path to route config, check https://xtls.github.io/config/routing.html for help
-InboundConfigPath: # /etc/XrayR/custom_inbound.json # Path to custom inbound config, check https://xtls.github.io/config/inbound.html for help
-OutboundConfigPath:  /etc/XrayR/custom_outbound.json # Path to custom outbound config, check https://xtls.github.io/config/outbound.html for help
+DnsConfigPath: # /etc/XrayR/dns.json # 
+RouteConfigPath: # /etc/XrayR/route.json # 
+InboundConfigPath: # /etc/XrayR/custom_inbound.json # 
+OutboundConfigPath: # /etc/XrayR/custom_outbound.json # 
 ConnectionConfig:
-  Handshake: 4 # Handshake time limit, Second
-  ConnIdle: 30 # Connection idle time limit, Second
-  UplinkOnly: 2 # Time limit when the connection downstream is closed, Second
-  DownlinkOnly: 4 # Time limit when the connection is closed after the uplink is closed, Second
-  BufferSize: 64 # The internal cache size of each connection, kB
+  Handshake: 4 # 
+  ConnIdle: 30 # 
+  UplinkOnly: 2 # 
+  DownlinkOnly: 4 # 
+  BufferSize: 64 # 
 Nodes:
-  - #MQ
+  - #急速云
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://mqtx.992178.xyz"
-      ApiKey: "IICIjANBgkqhkiG9w0BAQEFAAOCA"
-      NodeID: 53
+      ApiHost: "https://tx.102387.xyz"
+      ApiKey: "aB7kD4sH2jL8mN5pQ1rS6tV9wX0yZ3aB7cD2eF5gH1iJ8kL6mN3pQ0rS9"
+      NodeID: 40
       NodeType: V2ray
     ControllerConfig:
       CertConfig:
         CertMode: none
-  - #QY
+  - #光驰云
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://qytx.215874.xyz"
-      ApiKey: "4f42e9b78554d3d5a2NTR88YTSh"
-      NodeID: 17
+      ApiHost: "https://tx.201345.xyz"
+      ApiKey: "M2nP9qR4sT7vW1xY5zA0bC8dE3fG6hJ1kL9mN4oP7qR2sT5vW8xY3zA6bC0"
+      NodeID: 7
       NodeType: V2ray
     ControllerConfig:
       CertConfig:
         CertMode: none
-  - #DT
+  - #迅连云
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://dttx.938410.xyz"
-      ApiKey: "c9372a7e0a44f8b6790137c645ce"
-      NodeID: 18
+      ApiHost: "https://tx.319043.xyz"
+      ApiKey: "X8yZ1aB4cD7eF0gH3iJ6kL9mN2oP5qR8sT1vW4xY7zA0bC3dE6fG9hJ2kL5"
+      NodeID: 7
       NodeType: V2ray
     ControllerConfig:
       CertConfig:
         CertMode: none
-  - #LZ
+  - #Flash
     PanelType: "V2board"
     ApiConfig:
-      ApiHost: "https://lztx.848971.xyz"
-      ApiKey: "8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u"
-      NodeID: 29
-      NodeType: V2ray
-    ControllerConfig:
-      CertConfig:
-        CertMode: none
-  - #LB
-    PanelType: "V2board"
-    ApiConfig:
-      ApiHost: "https://lbtx.48952123.xyz"
-      ApiKey: "wierioqwjshalwouqaksjdkwo"
-      NodeID: 20
+      ApiHost: "https://tx.423617.xyz"
+      ApiKey: "L2mN5pQ8rS1tV4wX7yZ0aB3cD6eF9gH2iJ5kL8nM1oP4qR7sT0vW3xY6zA9"
+      NodeID: 10
       NodeType: V2ray
     ControllerConfig:
       CertConfig:
